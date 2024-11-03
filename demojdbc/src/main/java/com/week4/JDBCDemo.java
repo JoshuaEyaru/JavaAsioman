@@ -8,7 +8,7 @@ public class JDBCDemo {
       // database url + credentials
         String url = "jdbc:mysql://localhost:3306/example";
         String username = "root";
-        String password = "8891";
+        String password = "";
 
         // Obtain a connection using credentials
         try(Connection con = DriverManager.getConnection(
